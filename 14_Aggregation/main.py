@@ -10,7 +10,7 @@ class Department:
     def show_employee(self):
         return f"Department: {self.dept_name}, Employee: {self.employee.name}"
 
-# Test the class
+# Testing
 emp = Employee("Rahim")
 dept = Department("IT", emp)
 print(dept.show_employee())
