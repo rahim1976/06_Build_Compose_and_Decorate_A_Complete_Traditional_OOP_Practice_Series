@@ -9,7 +9,7 @@ class Book:
     def increment_book_count(cls):
         cls.total_books += 1
 
-# Test the class
+# Testing
 book1 = Book("Python 101")
 book2 = Book("Data Science")
 print(f"Total books: {Book.total_books}")
