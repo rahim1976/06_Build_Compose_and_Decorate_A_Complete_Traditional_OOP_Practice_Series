@@ -6,6 +6,6 @@ class Dog:
     def bark(self):
         print(f"{self.name} says: Woof Woof!")
 
-# Test the class
+# Testing
 dog = Dog("Tommys", "Golden Retriever")
 dog.bark()
